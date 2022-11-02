@@ -1,0 +1,271 @@
+@import url("estilos.css");
+@media screen and (max-width: 768px) {
+  .galeria{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .foto_sola{
+    width: 100%;
+  }
+  .foto_juntas{
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 480px) {
+  .menu {
+    list-style:none;
+    margin: 5px;;
+    padding: 0px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:stretch;
+    border:2px rgb(0, 0, 0) solid;
+    display: none;
+  }
+  .menu li a{
+  display: inline-block;
+  color:#333;
+  padding: 10px 15px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  }
+  .contenedor_reauty{
+    display: flex;
+    justify-content:space-between;
+   align-items: center;
+    flex-direction: column-reverse;
+    padding-top: 10px;
+  }
+  .contenedor_reauty article{
+    max-width:95%;
+    
+
+  }
+  .contenedor_reauty h2{
+    text-align:center;
+    margin: 5px;
+  }
+  .talento{
+    background-color: beige;
+  }
+  .talento h2{
+    text-align: center;
+    padding-top: 30px;
+  }
+  .talento figure{
+    flex-grow: 1;
+    padding:15px 15px 15px 15px;
+    text-align: center;
+    
+  }
+  .talento figure img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 20px;
+    width:600px;
+  }
+  .contenedor_buscamos{
+    display: flex;
+    justify-content:space-between;
+    align-items:stretch;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .contenedor_trabajo{
+    max-width:100%;
+  }
+  .contenedor_trabajo article p{
+    font-size:18px;
+    line-height:24px;
+    margin-top:15px;
+  }
+  .parrafo{
+    font-weight: bold;
+  }
+.contenedor_servicios article{
+  max-width: 90%;
+}
+.contenedor_servicios figure img{
+  width:200px;
+  height:200px;
+  border:10px white solid;
+  border-radius:50%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .contenedor_cabecera{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    padding-bottom: 20px;
+  }
+  .menu{
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding:5px;
+}
+ .menu li{
+  border-bottom:2px gray dotted;
+  width:100%;
+  margin-bottom: 5px;
+}
+ .menu li a{
+  display:block;
+}
+ .contenedor_redes{
+  gap:20px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.contenedor_redes a{
+  display:inline-block;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.slide_fotos{
+  background-image: url(imagenes/slide2.jpg);
+  min-height:350px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position-y: -10px ;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:400px;
+  }
+.segundo{
+  order:1;
+}
+.tercero{
+  order:2;
+}
+.primero{
+  order:3;
+}
+.contenedor_iconomenu{
+  display:block;
+}
+.logo{
+width: 100%;
+padding:10px;
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+align-items:center;
+}
+.contenedor_reauty h2{
+  font-size:16px;
+}
+.talento{
+  background-color: beige;
+}
+.talento h3{
+  text-align: center;
+  padding-top: 30px;
+}
+.talento figure{
+  flex-grow: 1;
+  padding:15px 15px 15px 0px;
+}
+.talento figure img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.btn_rosado{
+  border:2px  #F20574 solid;
+  background-color:#F20574;
+  text-decoration: none;
+  color:white;
+  padding:15px 15px;
+  border-radius: 3px;
+  display:inline-block;
+  transition: all 0.5s ease;
+}
+
+.contenedor_botones{
+   
+  padding-top: 20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+    
+  }
+.btn_rosado:hover{
+  background-color:#333;
+}
+.btn_borde{
+  border:2px  #F20574 solid;
+  text-decoration: none;
+  color:white;
+  padding:15px 15px;
+  border-radius: 3px;
+  display:inline-block;
+}
+.contenedor_buscamos{
+  display: flex;
+  justify-content:space-between;
+  align-items:stretch;
+
+}
+.puesto{
+  font-size:1px;
+  
+}
+.contenedor_trabajo article p{
+font-size:16px;
+;
+}
+.contenedor_servicios figure img{
+  width:200px;
+  height:200px;
+  border:10px white solid;
+  border-radius:50%;
+}
+.foto_juntas{
+  width:100%;
+}
+.foto_juntas .arriba{
+  width:100%;
+  height:337px;
+}
+.foto_juntas .abajo{
+  width:100%;
+  height:250px;
+
+}
+.foto_sola{
+  width:100%;
+}
+}
+
